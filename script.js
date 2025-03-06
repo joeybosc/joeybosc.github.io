@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 var imageInfo = [
     { src: 'img/perfboard_only.png', x: 0, y: 0, snapOffsetX: 0, snapOffsetY: 0},
     { src: 'img/resistor10k.png', x: 272, y: 176, snapOffsetX: 9, snapOffsetY: 29},
-    { src: 'img/led_red.png', x: 412, y: 42, snapOffsetX: 29, snapOffsetY: 163},
+    { src: 'img/led_red.png', x: 450, y: 42, snapOffsetX: 29, snapOffsetY: 163},
     { src: 'img/button.png', x: 185, y: 185, snapOffsetX: 16, snapOffsetY: 100},
     { src: 'img/led_blue.png', x: 852, y: 45, snapOffsetX: 29, snapOffsetY: 0}
 ];
