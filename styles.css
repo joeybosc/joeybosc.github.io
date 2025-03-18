@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "VesperLibre";
+  src:  
+    local("VesperLibre"),
+    url("fonts/VesperLibre-Medium.ttf");
+}
+
+@font-face {
+  font-family: "saxmono";
+  src:  
+    local("saxmono"),
+    url("fonts/saxmono.ttf");
+}
+
 body {
   background: #5c0e0e;
   margin: 0;
@@ -26,4 +40,3 @@ a {
   color: #cccccc;
   margin: 0;
 }
-
