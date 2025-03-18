@@ -32,3 +32,4 @@ function render(){
 }
 
 preloadImages();
+main();
