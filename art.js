@@ -38,7 +38,7 @@ ______/\\\\\\\\\\\_________________________________________/\\\\\\\\\\\\\_______
 
 ];
 
-const randomArt = asciiArtGallery[Math.floor(Math.random() * asciiArtGallery.length)];
+const randomArt = asciiArtGallery[1];//asciiArtGallery[Math.floor(Math.random() * asciiArtGallery.length)];
 
 document.getElementById("asciiHeader").textContent = randomArt;
 
@@ -60,58 +60,26 @@ const projectsArt = String.raw`
                 /___/                      
 `;
 
-document.getElementById("aboutHeader").textContent = aboutArt;
-document.getElementById("projectsHeader").textContent = projectsArt;
+const paintingsArt = String.raw`
+    ____        _       __  _                 
+   / __ \____ _(_)___  / /_(_)___  ____ ______
+  / /_/ / __ '/ / __ \/ __/ / __ \/ __ '/ ___/
+ / ____/ /_/ / / / / / /_/ / / / / /_/ (__  ) 
+/_/    \__,_/_/_/ /_/\__/_/_/ /_/\__, /____/  
+                                /____/        
+`;
 
+const pathname = window.location.pathname;
+const isHomePage = pathname.endsWith('index.html') || pathname === '/' || pathname === '';
+const isArtPage = pathname.endsWith('art.html');
 
-(function(){
-    const STORAGE_KEY = 'darkModeEnabled';
+if (isHomePage) {
+    document.getElementById("about").textContent = aboutArt;
+    document.getElementById("projects").textContent = projectsArt;
+}
 
-    // Create toggle button
-    const btn = document.createElement('button');
-    btn.className = 'dm-toggle';
-    btn.type = 'button';
-    btn.title = 'Toggle dark mode';
-    btn.setAttribute('aria-pressed', 'false');
-    btn.style.fontFamily = 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial';
-    document.body.appendChild(btn);
+if (isArtPage) {
+    document.getElementById("paintings").textContent = paintingsArt;
+}
 
-    // Helpers
-    function setMode(dark) {
-        document.documentElement.classList.toggle('dark-mode', dark);
-        btn.textContent = dark ? '☾' : '☀';
-        btn.setAttribute('aria-pressed', String(!!dark));
-        try { localStorage.setItem(STORAGE_KEY, dark ? '1' : '0'); } catch(e){}
-    }
-
-    // Toggle on click
-    btn.addEventListener('click', () => {
-        const isDark = document.documentElement.classList.contains('dark-mode');
-        setMode(!isDark);
-    });
-
-    // Initial state: saved preference -> system preference -> light
-    let saved = null;
-    try { saved = localStorage.getItem(STORAGE_KEY); } catch(e){}
-    if (saved === '1' || saved === '0') {
-        setMode(saved === '1');
-    } else {
-        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        setMode(!!prefersDark);
-    }
-
-
-    // Respect system changes if user hasn't explicitly chosen
-    if (window.matchMedia) {
-        const mql = window.matchMedia('(prefers-color-scheme: dark)');
-        mql.addEventListener && mql.addEventListener('change', (e) => {
-            try {
-                if (localStorage.getItem(STORAGE_KEY) === null) setMode(e.matches);
-            } catch(e){}
-            try{if (localStorage.getItemn(STORAGE_KEY) != null) setMode(e.notMatchin)}catch(e){}
-        });
-    }
-
-    
-})();
-                                                 
+document.getElementById("divider").textContent = String.raw`_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ `;

@@ -12,46 +12,60 @@
     <header id="asciiHeader"></header>
 
     <div class="nav">
-        <a href="about.html">// About</a>
-        <br>
-        <a href="projects.html">// Projects</a>
-        <br>
-        <a href="contact.html">// Contact</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="contact.html">Contact</a>
     </div>
-    <div class="content">
-        // Welcome to my site! I'm Joe Bosco, an electrical engineer and designer with specialization in integrated
-        circuits and analog systems.
-        <br>
-        <br>
-        Other projects: <br>
-        <a href="music.html">// Music</a>
-        <a href="art.html">// Art</a>
-        <a href="poetry.html">// Poetry</a>
 
-        <header id="aboutHeader"></header>
-        // I graduated from Columbia University in 2025 with an M.S. in Electrical Engineering, specializing in
-        integrated circuit design and analog systems.
-        <br>// I graduated from Boston University in 2022 with a B.S. in Biomedical Engineering, with a focus on
-        electronic medical device development.
-        <br>// I have a lifelong passion for music, art, and technology, and I love combining these interests in my
-        work.
-        <header id="projectsHeader"></header>
+    <div id="divider"></div>
+
+    <div class="content">
+        
+
+        <header id="about"></header>
+        Analog Circuit Design and Embedded Systems.<br><br>
+        Background:
+        Former Application Support Engineer at Speedgoat, Inc.<br>
+        Columbia University, M.S. in Electrical Engineering, 2025<br>
+        Boston University, B.S. in Biomedical Engineering, 2022
+        <header id="projects"></header>
 
         <div class="sectionContents">
-            Project Contents
+            
             Analog and Mixed-Signal IC Design:
             <div id="sectionContentsIndented">
-                <br>
-                SAR ADC
-                <br>
-                60GHz Analog Receiver
-                <br>
+                <div class="image-grid">
+                    <figure class="projectCard">
+                        <img src="img/projects/buckconverter.jpg" alt="Integrated Buck Converter">
+                        <figcaption>Integrated Buck Converter</figcaption>
+                    </figure>
+                    <figure class="projectCard">
+                        <img src="img/projects/buckconverter.jpg" alt="Project 2">
+                        <figcaption>Project Title 2</figcaption>
+                    </figure>
+                    <figure class="projectCard">
+                        <img src="img/projects/buckconverter.jpg" alt="Project 3">
+                        <figcaption>Project Title 3</figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
 
     </div>
 
+    <footer>
+        <p>&copy; 2025 Joe Bosco. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Remove anchor tag from URL on page load and scroll to top
+        if (window.location.hash) {
+            window.history.replaceState(null, null, window.location.pathname);
+            window.scrollTo(0, 0);
+        }
+    </script>
     <script src="art.js"></script>
+    <script src="darkmode.js"></script>
 </body>
 
 </html>
