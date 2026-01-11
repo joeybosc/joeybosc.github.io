@@ -1,0 +1,6 @@
+60GHz Receiver
+Relatively recent developments in wireless technologies have illuminated niche yet important applications for millimeter-wave systems. Comprising the 30GHz to 300GHz frequency band (1mm to 10mm wavelength), mmWave technologies are useful for high speed communication over short distances, integrating into CAN networks and 'last-mile' communication systems. 
+
+Completed under the supervision of Professor Harish Krishnaswamy (COSMiC Lab) at Columbia University, this project was my first foray into mmWave systems. I found myself pushing the limits of my analog design skills working with a small SNDR and high losses intrinsic to such extremely high frequency RF design. 
+
+The specifications for the design are as follows:

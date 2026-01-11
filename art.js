@@ -60,6 +60,25 @@ const projectsArt = String.raw`
                 /___/                      
 `;
 
+const buckArt = String.raw`
+    ____             __      ______                           __           
+   / __ )__  _______/ /__   / ____/___  ____ _   _____  _____/ /____  _____
+  / __  / / / / ___/ //_/  / /   / __ \/ __ \ | / / _ \/ ___/ __/ _ \/ ___/
+ / /_/ / /_/ / /__/ ,<    / /___/ /_/ / / / / |/ /  __/ /  / /_/  __/ /    
+/_____/\__,_/\___/_/|_|   \____/\____/_/ /_/|___/\___/_/   \__/\___/_/     
+                                                                           
+`;
+
+const receiverArt = String.raw`
+   _____ ____  ________  __         ____                 _                
+  / ___// __ \/ ____/ / / /___     / __ \___  ________  (_)   _____  _____
+ / __ \/ / / / / __/ /_/ /_  /    / /_/ / _ \/ ___/ _ \/ / | / / _ \/ ___/
+/ /_/ / /_/ / /_/ / __  / / /_   / _, _/  __/ /__/  __/ /| |/ /  __/ /    
+\____/\____/\____/_/ /_/ /___/  /_/ |_|\___/\___/\___/_/ |___/\___/_/     
+                                                                          
+`;
+
+
 const paintingsArt = String.raw`
     ____        _       __  _                 
    / __ \____ _(_)___  / /_(_)___  ____ ______
@@ -72,14 +91,26 @@ const paintingsArt = String.raw`
 const pathname = window.location.pathname;
 const isHomePage = pathname.endsWith('index.html') || pathname === '/' || pathname === '';
 const isArtPage = pathname.endsWith('art.html');
+const isBuckPage = pathname.endsWith('buck.html');
+const isReceiverPage = pathname.endsWith('receiver.html');
 
 if (isHomePage) {
     document.getElementById("about").textContent = aboutArt;
     document.getElementById("projects").textContent = projectsArt;
 }
 
+if (isBuckPage) {
+    document.getElementById("buck").textContent = buckArt;
+}
+
 if (isArtPage) {
     document.getElementById("paintings").textContent = paintingsArt;
 }
 
-document.getElementById("divider").textContent = String.raw`_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ `;
+if (isReceiverPage) {
+    document.getElementById("receiver").textContent = receiverArt;
+}
+
+Array.from(document.getElementsByClassName("divider")).forEach(el => {
+    el.textContent = String.raw`_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ `;
+});
