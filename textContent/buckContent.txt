@@ -1,10 +1,12 @@
-It’s a great convenience to simulate ideal voltage sources in EDA software which can be instantiated to rapidly test and iterate integrated circuit designs. Of course, as with all things in microelectronic engineering, reality is more complex. DC voltage regulation is deeply nontrivial, and circuits designed to modulate and amplify signals require DC biasing. The first instinct of a beginner may be to use an unregulated voltage supply, such as a voltage divider, but this burns lots of power and can only function as intended under negligible load. A more prudent approach is to regulate the load with feedback, but 
+It’s a great convenience to simulate ideal voltage sources in EDA software which can be instantiated to rapidly test and iterate integrated circuit designs. Of course, as with all things in microelectronic engineering, reality is more complex. DC voltage regulation is deeply nontrivial, and circuits designed to modulate and amplify signals require DC biasing. 
+<br><br>
+The first instinct of a beginner may be to use an unregulated voltage supply, such as a voltage divider, but this burns lots of power and can only function as intended under negligible load. A more prudent approach is to regulate the load with feedback, but 
 However, linear regulator efficiency is limited by the conversion ratio, posing potentially wasted energy for large step-down conversion. For example, common consumer power converters which plug into wall outlets need to step 120V AC down to 16, 12, 5, or even 3 V DC, which corresponds to unacceptably poor efficiency.
-
+<br><br>
 Enter the switching converter, which uses a digital control loop to greatly reduce power losses. 
-
+<br><br>
 This project was inspired by <a href="https://ieeexplore.ieee.org/document/6578583">this paper</a> by Cheng Huang and Philip K. T. Mok, with the intention of reducing output ripple over load current variation. Note that this trades-off with efficiency, so the application must be considered carefully. In applications with high load sensitivity, switching supplies with large output ripple suffer from degraded linearity and phase noise as an effect of the undesired modulation of DC operating points. Also, the design presented in the aforementioned paper operates in discontinous-conduction mode (DCM), which corresponds to increased reverse current losses as loading current approaches zero. My design aims to maintain continuous-conduction mode, which means that the current through the output never crosses into the reverse-current domain. This should help compensate for the efficiency trade-off inherent in the output ripple minimization scheme.
-
+<br><br>
 Specifications below:
 
 These specs can then be broken down into per-block specifications. For the digital control logic blocks, target approximations for rise/fall time and error margins are derived from worst-case conversion specifications. 
