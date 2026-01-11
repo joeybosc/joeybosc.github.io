@@ -1,4 +1,3 @@
-ntegrated Buck Converter
 It’s a great convenience to simulate ideal voltage sources in EDA software which can be instantiated to rapidly test and iterate integrated circuit designs. Of course, as with all things in microelectronic engineering, reality is more complex. DC voltage regulation is deeply nontrivial, and circuits designed to modulate and amplify signals require DC biasing. The first instinct of a beginner may be to use an unregulated voltage supply, such as a voltage divider, but this burns lots of power and can only function as intended under negligible load. A more prudent approach is to regulate the load with feedback, but 
 However, linear regulator efficiency is limited by the conversion ratio, posing potentially wasted energy for large step-down conversion. For example, common consumer power converters which plug into wall outlets need to step 120V AC down to 16, 12, 5, or even 3 V DC, which corresponds to unacceptably poor efficiency.
 
