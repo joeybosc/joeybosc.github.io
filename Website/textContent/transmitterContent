@@ -1,0 +1,5 @@
+AM Transmitter
+
+The earliest radio transmission systems used an amplitude-modulation (AM) encoding scheme to transmit data wirelessly over long distances. At the simplesy level,  modulating the amplitude of a signal is easy: it requires only that you modulate the supply of the switching stage of a power amplifier. 
+
+The aim of this project is to design and implement a discrete, Class D switching transmitter with readily available components. I'm inspired by the earliest work in RF systems conducted more than a century ago by Tesla and Marconi, 
