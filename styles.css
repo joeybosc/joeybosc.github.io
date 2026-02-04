@@ -12,11 +12,12 @@ a {
 }
 
 p {
-    text-indent: 10rem;
+    font-size: 1em;
 }
 
 a:hover {
     text-decoration: none;
+    
     color: #000;
     border-radius: 2px;
     transition: background-color .12s ease, color .12s ease;
@@ -34,7 +35,7 @@ a:hover {
 }
 
 .nav a {
-    text-decoration: none;
+    
     transition: box-shadow .12s ease, color .12s ease;
     width: 200px;
     height: auto;
@@ -73,6 +74,7 @@ figure {
 
 .content {
     box-sizing: border-box;
+    font-size: 1rem;
     width: 80vw;
     margin: 0 auto;
     color: var(--fgl);
@@ -119,6 +121,21 @@ figure {
     object-fit: cover;
 }
 
+.contactContent {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+figcaption {
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+.subcaption{
+    font-size: 0.9rem;
+    color: gray;
+}
 
 /* Apply dark mode to the root and to the body explicitly so body background overrides any body rules */
 .dark-mode, .dark-mode body, .dark-mode html {

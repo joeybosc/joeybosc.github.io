@@ -60,6 +60,15 @@ const projectsArt = String.raw`
                 /___/                      
 `;
 
+const contactArt = String.raw`
+   ______            __             __ 
+  / ____/___  ____  / /_____ ______/ /_
+ / /   / __ \/ __ \/ __/ __ '/ ___/ __/
+/ /___/ /_/ / / / / /_/ /_/ / /__/ /_  
+\____/\____/_/ /_/\__/\__,_/\___/\__/  
+                                       
+`;
+
 const buckArt = String.raw`
     ____             __      ______                           __           
    / __ )__  _______/ /__   / ____/___  ____ _   _____  _____/ /____  _____
@@ -78,6 +87,14 @@ const receiverArt = String.raw`
                                                                           
 `;
 
+const transmitterArt = String.raw`
+    ___    __  ___   ______                                _ __  __           
+   /   |  /  |/  /  /_  __/________ _____  _________ ___  (_) /_/ /____  _____
+  / /| | / /|_/ /    / / / ___/ __ '/ __ \/ ___/ __ '__ \/ / __/ __/ _ \/ ___/
+ / ___ |/ /  / /    / / / /  / /_/ / / / (__  ) / / / / / / /_/ /_/  __/ /    
+/_/  |_/_/  /_/    /_/ /_/   \__,_/_/ /_/____/_/ /_/ /_/_/\__/\__/\___/_/    
+`; 
+                                                                              
 
 const paintingsArt = String.raw`
     ____        _       __  _                 
@@ -97,6 +114,7 @@ const isReceiverPage = pathname.endsWith('receiver.html');
 if (isHomePage) {
     document.getElementById("about").textContent = aboutArt;
     document.getElementById("projects").textContent = projectsArt;
+    document.getElementById("contact").textContent = contactArt;
 }
 
 if (isBuckPage) {

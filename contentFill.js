@@ -18,3 +18,7 @@ async function loadServerText(filePath, elementID) {
 if (isBuckPage) {
     loadServerText('textContent/buckContent.txt', 'buckContent');
 }
+
+if (isReceiverPage) {
+    loadServerText('textContent/receiverContent.txt', 'receiverContent')
+}
