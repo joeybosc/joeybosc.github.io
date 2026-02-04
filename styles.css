@@ -137,6 +137,12 @@ figcaption {
     color: gray;
 }
 
+#fourOhFour {
+    text-align: center;
+    white-space: pre; /* preserves ASCII formatting */
+    padding: 60px 0;
+}
+
 /* Apply dark mode to the root and to the body explicitly so body background overrides any body rules */
 .dark-mode, .dark-mode body, .dark-mode html {
     background-color: var(--bgd) !important;

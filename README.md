@@ -1,1 +1,4 @@
-# joeybosc.github.io
+# Joe Bosco
+
+This is the source code for my website, joebos.co
+

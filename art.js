@@ -105,11 +105,28 @@ const paintingsArt = String.raw`
                                 /____/        
 `;
 
+const fourOhFourArt = String.raw`
+____________/\\\________/\\\\\\\_______________/\\\____        
+ __________/\\\\\______/\\\/////\\\___________/\\\\\____       
+  ________/\\\/\\\_____/\\\____\//\\\________/\\\/\\\____      
+   ______/\\\/\/\\\____\/\\\_____\/\\\______/\\\/\/\\\____     
+    ____/\\\/__\/\\\____\/\\\_____\/\\\____/\\\/__\/\\\____    
+     __/\\\\\\\\\\\\\\\\_\/\\\_____\/\\\__/\\\\\\\\\\\\\\\\_   
+      _\///////////\\\//__\//\\\____/\\\__\///////////\\\//__  
+       ___________\/\\\_____\///\\\\\\\/_____________\/\\\____ 
+        ___________\///________\///////_______________\///_____
+`;
+
 const pathname = window.location.pathname;
 const isHomePage = pathname.endsWith('index.html') || pathname === '/' || pathname === '';
 const isArtPage = pathname.endsWith('art.html');
 const isBuckPage = pathname.endsWith('buck.html');
 const isReceiverPage = pathname.endsWith('receiver.html');
+const is404Page = pathname.endsWith('404.html');
+
+if (is404Page) {
+    document.getElementById("fourOhFour").textContent = fourOhFourArt;
+}
 
 if (isHomePage) {
     document.getElementById("about").textContent = aboutArt;
