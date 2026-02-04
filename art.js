@@ -122,10 +122,12 @@ const isHomePage = pathname.endsWith('index.html') || pathname === '/' || pathna
 const isArtPage = pathname.endsWith('art.html');
 const isBuckPage = pathname.endsWith('buck.html');
 const isReceiverPage = pathname.endsWith('receiver.html');
-const is404Page = pathname.endsWith('404.html');
 
-if (is404Page) {
-    document.getElementById("fourOhFour").textContent = fourOhFourArt;
+
+const el404 = document.getElementById("fourOhFour")
+
+if(el404){
+    el404.textContent = fourOhFourArt;
 }
 
 if (isHomePage) {
