@@ -11,14 +11,13 @@
             "id": "42f71c0a64505bd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Hardware.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Hardware"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ]
@@ -186,13 +185,14 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
-    "index.md",
-    "Contact.md",
-    "Hardware.md",
     "SAR_ADC.md",
-    "Software.md",
+    "Untitled.base",
+    "Hardware.md",
     "About.md",
     "Concepts.md",
+    "index.md",
+    "Contact.md",
+    "Software.md",
     "README.md",
     "img/art/cups2.jpg",
     "img/art/dreamman.jpg",
@@ -207,7 +207,6 @@
     "receiver.html",
     "poetry.html",
     "lightbox.js",
-    "index.html",
     "img/projects/transmitter.jpg",
     "img/projects/amp1.jpg",
     "img/projects/receiver.jpg",
