@@ -1,5 +1,6 @@
 ---
-title: index.md
+layout: page
+title: index
 css: styles.css
 ---
 
