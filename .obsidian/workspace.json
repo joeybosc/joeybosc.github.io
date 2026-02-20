@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "About.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About"
+              "title": "index"
             }
           }
         ]
@@ -196,14 +196,14 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
-    "Concepts.md",
-    "Contact.md",
     "Hardware.md",
+    "Contact.md",
+    "Concepts.md",
+    "About.md",
     "index.md",
     "SAR_ADC.md",
     "Software.md",
     "Untitled.base",
-    "About.md",
     "README.md",
     "img/art/cups2.jpg",
     "img/art/dreamman.jpg",
