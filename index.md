@@ -1,6 +1,6 @@
 ---
-title: "index"
-css: "styles.css"
+title: index
+css: styles.css
 ---
 
 
@@ -8,9 +8,9 @@ css: "styles.css"
 
 Thanks for stopping by! 
 
-I'm an electrical and computer engineer with specialization in analog integrated circuit design, embedded systems, and real-time systems. I graduated from Columbia in 2025 with an M.S.E.E. focused on analog IC, and previously worked at Speedgoat as an Application Support Engineer.
+I'm an electrical and computer engineer interested in analog integrated circuit design, embedded systems, and real-time systems. I graduated from Columbia in 2025 with an M.S.E.E. focused on analog IC, and previously worked at Speedgoat as an Application Support Engineer.
 
-I'm also an avid guitarist, songwriter, and painter. 
+I'm also interested in guitar, songwriting, and painting. 
 
 + *General*
 	+ [About](About.md)
