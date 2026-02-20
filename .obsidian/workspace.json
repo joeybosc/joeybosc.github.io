@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contact.md",
+                "file": "404.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contact"
+              "title": "404"
             }
           }
         ],
@@ -211,14 +211,15 @@
   },
   "active": "498fda7d1957bf7b",
   "lastOpenFiles": [
-    "Software.md",
     "_config.yaml.md",
+    "_config.yaml",
+    "404.md",
+    "Contact.md",
+    "Software.md",
     "index.md",
     "SAR_ADC.md",
     "About.md",
-    "404.md",
     "Concepts.md",
-    "Contact.md",
     "Hardware.md",
     "styles.css",
     "CNAME",
@@ -235,7 +236,6 @@
     "textContent",
     "template.html",
     "receiver.html",
-    "poetry.html",
     "img/projects/transmitter.jpg",
     "img/projects/amp1.jpg",
     "img/projects/receiver.jpg",
