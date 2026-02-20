@@ -196,6 +196,7 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "styles.css",
     "index.md",
     "404.md",
     "SAR_ADC.md",
@@ -217,7 +218,6 @@
     "textContent/receiverContent.txt",
     "textContent",
     "template.html",
-    "styles.css",
     "receiver.html",
     "poetry.html",
     "img/projects/transmitter.jpg",
