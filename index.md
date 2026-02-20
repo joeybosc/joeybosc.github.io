@@ -1,6 +1,6 @@
 –––
-title: index;
-css:
+title: index
+css: styles.css
 –––
 # Joe Bosco
 
