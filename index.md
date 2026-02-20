@@ -1,11 +1,7 @@
-
-
----
-title: My title
-css: style.css
-
----
-
+–––
+title: index;
+css:
+–––
 # Joe Bosco
 
 Thanks for stopping by! 
