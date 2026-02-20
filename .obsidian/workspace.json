@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wireless_Receiver.md",
+                "file": "404.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireless_Receiver"
+              "title": "404"
             }
           }
         ],
@@ -211,15 +211,15 @@
   },
   "active": "498fda7d1957bf7b",
   "lastOpenFiles": [
-    "Hardware.md",
-    "Wireless_Receiver.md",
-    "404.md",
     "About.md",
-    "Concepts.md",
-    "Contact.md",
+    "404.md",
+    "Software.md",
     "index.md",
     "SAR_ADC.md",
-    "Software.md",
+    "Wireless_Receiver.md",
+    "Hardware.md",
+    "Concepts.md",
+    "Contact.md",
     "_config.yml",
     "_config.yaml.md",
     "_config.yaml",
