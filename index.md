@@ -1,6 +1,6 @@
 ---
-title: index
-css: style.css
+title: "index"
+css: "styles.css"
 ---
 
 
