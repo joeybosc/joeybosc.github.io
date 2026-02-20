@@ -1,7 +1,6 @@
 ---
-layout: page
 title: index
-css: styles.css
+css: style.css
 ---
 
 
