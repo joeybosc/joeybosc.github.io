@@ -6,16 +6,16 @@ I'm an electrical and computer engineer with specialization in analog integrated
 
 I'm also an avid guitarist, songwriter, and painter. 
 
-*General*
-	[About](About.md)
-	[Contact](Contact.md)
-*Projects*
-	[Hardware](Hardware.md)
-	[Software](Software.md)
-	[Concepts](Concepts.md)
-*Art*
-	[Music](Music.md)
-	[Writing](Writing.md)
-	[Painting](Painting.md)
++ *General*
+	+ [About](About.md)
+	+ [Contact](Contact.md)
++ *Projects*
+	+ [Hardware](Hardware.md)
+	+ [Software](Software.md)
+	+ [Concepts](Concepts.md)
++ *Art*
+	+ [Music](Music.md)
+	+ [Writing](Writing.md)
+	+ [Painting](Painting.md)
 
 

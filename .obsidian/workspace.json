@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Hardware.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Hardware"
             }
           }
         ]
@@ -196,13 +196,13 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "Software.md",
+    "SAR_ADC.md",
+    "index.md",
     "Hardware.md",
     "Contact.md",
     "Concepts.md",
     "About.md",
-    "index.md",
-    "SAR_ADC.md",
-    "Software.md",
     "Untitled.base",
     "README.md",
     "img/art/cups2.jpg",
