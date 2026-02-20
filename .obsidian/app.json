@@ -1,4 +1,5 @@
 {
   "promptDelete": false,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "propertiesInDocument": "source"
 }
