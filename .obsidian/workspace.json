@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "About.md",
+                "file": "404.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About"
+              "title": "404"
             }
           }
         ]
@@ -196,15 +196,16 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "index.md",
+    "404.md",
+    "SAR_ADC.md",
+    "About.md",
     "CNAME",
     "Concepts.md",
     "Contact.md",
     "Hardware.md",
-    "index.md",
-    "SAR_ADC.md",
     "Software.md",
     "FIR.md",
-    "About.md",
     "Untitled.base",
     "README.md",
     "img/art/cups2.jpg",
@@ -219,7 +220,6 @@
     "styles.css",
     "receiver.html",
     "poetry.html",
-    "lightbox.js",
     "img/projects/transmitter.jpg",
     "img/projects/amp1.jpg",
     "img/projects/receiver.jpg",
