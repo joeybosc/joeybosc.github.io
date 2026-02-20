@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR_ADC.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SAR_ADC"
+              "title": "index"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "SAR_ADC.md",
     "About.md",
     "404.md",
     "Concepts.md",
@@ -203,7 +204,6 @@
     "Hardware.md",
     "index.md",
     "styles.css",
-    "SAR_ADC.md",
     "CNAME",
     "Software.md",
     "FIR.md",

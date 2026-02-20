@@ -1,5 +1,5 @@
 ---
-title: index
+title: index.md
 css: styles.css
 ---
 
