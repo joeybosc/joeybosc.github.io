@@ -1,7 +1,8 @@
-–––
+---
 title: index
 css: styles.css
-–––
+---
+
 
 # Joe Bosco
 
