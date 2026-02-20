@@ -1,9 +1,3 @@
----
-title: index
-css: styles.css
----
-
-
 # Joe Bosco
 
 Thanks for stopping by! 
