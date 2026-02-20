@@ -1,8 +1,8 @@
 # Software
 
-+ **Real-Time Controls**
++ *Real-Time Controls*
 	+ [PID Demo](PID.md)
 
-+ **Signal Processing**
++ *Signal Processing*
 	+ [FIR Filter](FIR.md)
 	+ [Web Scraper](scraper.md)
