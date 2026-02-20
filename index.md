@@ -1,10 +1,11 @@
 
-```
+
 ---
 title: My title
 css: style.css
+
 ---
-```
+
 # Joe Bosco
 
 Thanks for stopping by! 
