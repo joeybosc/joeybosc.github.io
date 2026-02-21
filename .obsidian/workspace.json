@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Software.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Software"
             }
           },
           {
@@ -28,15 +28,14 @@
               "type": "markdown",
               "state": {
                 "file": "Hardware.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Hardware"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contact.md",
+                "file": "Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Contact"
+              "title": "Backlinks for Software"
             }
           },
           {
@@ -128,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Contact.md",
+                "file": "Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Contact"
+              "title": "Outgoing links from Software"
             }
           },
           {
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Contact.md",
+                "file": "Software.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Contact"
+              "title": "Outline of Software"
             }
           },
           {
@@ -209,18 +208,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "498fda7d1957bf7b",
+  "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
     "index.md",
+    "Contact.md",
+    "Hardware.md",
     "404.md",
     "Micro.md",
-    "Hardware.md",
     "About.md",
     "Software.md",
     "SAR_ADC.md",
     "Wireless_Receiver.md",
     "Concepts.md",
-    "Contact.md",
     "_config.yml",
     "_config.yaml.md",
     "_config.yaml",
