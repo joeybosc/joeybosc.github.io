@@ -211,6 +211,7 @@
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
     "Hardware.md",
+    "SAR_ADC.md",
     "Contact.md",
     "index.md",
     "Concepts.md",
@@ -219,7 +220,6 @@
     "404.md",
     "Micro.md",
     "About.md",
-    "SAR_ADC.md",
     "_config.yml",
     "_config.yaml.md",
     "_config.yaml",
