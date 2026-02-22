@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software.md",
+                "file": "Concepts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software"
+              "title": "Concepts"
             }
           },
           {
@@ -210,15 +210,15 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
-    "index.md",
     "Contact.md",
     "Hardware.md",
+    "Wireless_Receiver.md",
+    "Software.md",
+    "index.md",
     "404.md",
     "Micro.md",
     "About.md",
-    "Software.md",
     "SAR_ADC.md",
-    "Wireless_Receiver.md",
     "Concepts.md",
     "_config.yml",
     "_config.yaml.md",
