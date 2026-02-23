@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR_ADC.md",
+                "file": "PID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SAR_ADC"
+              "title": "PID"
             }
           },
           {
@@ -210,14 +210,15 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "Software.md",
+    "PID.md",
+    "SAR_ADC.md",
     "img",
     "Hardware.md",
-    "SAR_ADC.md",
     "Contact.md",
     "index.md",
     "Concepts.md",
     "Wireless_Receiver.md",
-    "Software.md",
     "404.md",
     "Micro.md",
     "About.md",
@@ -237,7 +238,6 @@
     "textContent/transmitterContent",
     "textContent/receiverContent.txt",
     "textContent",
-    "template.html",
     "img/projects/transmitter.jpg",
     "img/projects/amp1.jpg",
     "img/projects/receiver.jpg",
