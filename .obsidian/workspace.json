@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PID.md",
+                "file": "Wireless_Receiver.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PID"
+              "title": "Wireless_Receiver"
             }
           },
           {
@@ -210,6 +210,8 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "Hardware.md",
+    "PID.md",
     "img/PIDarchitecture.png",
     "img/Screenshot 2026-02-23 at 3.56.14 PM.png",
     "Screenshot 2026-02-23 at 3.56.14 PM.png",
@@ -219,9 +221,7 @@
     "img/testimg.md",
     "About.md",
     "404.md",
-    "PID.md",
     "img",
-    "Hardware.md",
     "Contact.md",
     "index.md",
     "Concepts.md",
@@ -245,7 +245,6 @@
     "img/projects/transmitter.jpg",
     "img/projects/amp1.jpg",
     "img/projects/receiver.jpg",
-    "img/projects/buckconverter.jpg",
     "Joe Bosco.md",
     "().md",
     "SAR.md",
