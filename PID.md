@@ -4,7 +4,7 @@ Rapid/Toy Demo of a PID control loop in hard real-time using FreeRTOS (simulated
 
 The architecture is as follows:
 
-![PID_Architecture_Diagram](/img/PIDarchitecture.png "Architecture")
+![PID_Architecture_Diagram](/img/PID_Architecture.png "Architecture")
 
 The controller loop is fully modular, so any control algorithm, provided it is bounded and deterministic, can be inserted into the example. The criteria for bounded determinism are:
 	No unbounded loops
