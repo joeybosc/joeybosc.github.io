@@ -5,3 +5,5 @@ The SAR architecture (or SARchitecture, if you will) has [surged](https://ieeexp
 This project was inspired by recent research into Wireless Sensor Networks (WSNs), in particular [this paper](https://ieeexplore.ieee.org/document/11008746) which provides a good forward-looking review. 
 
 The objective of this project is to design a SAR ADC in 180nm CMOS for use in wireless sensors with low power requirements (<10uW), low speed (50kHz), and medium bit resolution (10b). 
+
+
