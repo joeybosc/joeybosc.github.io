@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teardowns.md",
+                "file": "SAR_ADC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "teardowns"
+              "title": "SAR_ADC"
             }
           },
           {
@@ -210,6 +210,7 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "teardowns.md",
     "img/iphone3gs_board.png",
     "img/Receiver_Architecture.png",
     "img/Buck_Architecture.jpg",
@@ -217,7 +218,6 @@
     "buck.md",
     "SAR_ADC.md",
     "Wireless_Receiver.md",
-    "teardowns.md",
     "Software.md",
     "PID.md",
     "Micro.md",
@@ -243,7 +243,6 @@
     "img/art/cups2.jpg",
     "img/art/dreamman.jpg",
     "img/art/cups.jpg",
-    "img/art/bernice.jpg",
     "textContent/buckContent.txt",
     "textContent/transmitterContent",
     "textContent/receiverContent.txt",
