@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR_ADC.md",
+                "file": "buck.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SAR_ADC"
+              "title": "buck"
             }
           },
           {
@@ -210,23 +210,23 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "Concepts.md",
+    "Contact.md",
+    "Hardware.md",
+    "index.md",
+    "Micro.md",
+    "PID.md",
+    "SAR_ADC.md",
     "teardowns.md",
     "img/iphone3gs_board.png",
     "img/Receiver_Architecture.png",
     "img/Buck_Architecture.jpg",
     "img/PID_Architecture.png",
     "buck.md",
-    "SAR_ADC.md",
     "Wireless_Receiver.md",
     "Software.md",
-    "PID.md",
-    "Micro.md",
-    "Hardware.md",
-    "Contact.md",
-    "Concepts.md",
     "About.md",
     "404.md",
-    "index.md",
     "img/PIDarchitecture.png",
     "img/Screenshot 2026-02-23 at 3.56.14 PM.png",
     "Screenshot 2026-02-23 at 3.56.14 PM.png",

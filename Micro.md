@@ -1,5 +1,6 @@
+	Dec. 25
+//
 # 8-bit Microcontroller in 45nm CMOS
-	Dec. 24
 	
 VLSI Adventures. 
 

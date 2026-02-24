@@ -1,6 +1,7 @@
 # Teardowns
 
 	Feb. 26
+//
 ## An Old Classic: The iPhone 3GS
 I recently found an old iPhone 3GS which was my first personal device, which was a hand-me-down from my parents when I was 10 years old. Since I don't have any reason to hang onto it besides nostalgia, I figured I'd have a look inside and see what kind of components and chipset Apple was working with in 2009.  
 
