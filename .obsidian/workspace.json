@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "buck.md",
+                "file": "SAR_ADC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "buck"
+              "title": "SAR_ADC"
             }
           },
           {
@@ -208,11 +208,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9af2f020812dcf29",
+  "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
-    "img/Buck_Architecture.jpg",
     "Hardware.md",
     "buck.md",
+    "About.md",
+    "img/Buck_Architecture.jpg",
     "Contact.md",
     "index.md",
     "Concepts.md",
@@ -227,7 +228,6 @@
     "SAR_ADC.md",
     "Software.md",
     "img/testimg.md",
-    "About.md",
     "404.md",
     "img",
     "_config.yml",
@@ -246,7 +246,6 @@
     "textContent/transmitterContent",
     "textContent/receiverContent.txt",
     "textContent",
-    "img/projects/transmitter.jpg",
     "Joe Bosco.md",
     "().md",
     "SAR.md",
