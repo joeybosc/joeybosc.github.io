@@ -1,6 +1,6 @@
 # Integrated Buck Converter Design
 
-Who hasn't marveled at a power adapter. That mysterious warm black plastic brick which, turns the scary big-lightning-bolt high voltage wall power into a trickle of juice for our most delicate instruments. An electron bottleneck, which aims to calm down high energy signals without wasting loads of valuable power. I've looked at power converters closely before, but usually in the context of informal power adapter teardowns, and not generally including a look at the DC/DC buck converter ICs (e.g. ) which make it all work. So I'm looking forward to seeing how it all comes together. 
+Who hasn't marveled at a power adapter. That mysterious warm black plastic brick which, turns the scary big-lightning-bolt high voltage wall power into a trickle of juice for our most delicate instruments. An electron bottleneck, which aims to calm down high energy signals without wasting loads of valuable power. I've looked at power converters closely before, but usually in the context of informal power adapter teardowns, and not generally including a look at the DC/DC buck converter ICs (e.g. TPS54302DDCR) which make it all work. So I'm looking forward to seeing how it all comes together. 
 #### Going into this, the main considerations are:
 1. Handle a range of inputs and output voltages (1.0-1.2V in, 0.6-0.9V out)
 2. The size of the inductor (target an integrated inductor ~ 10nH)
