@@ -1,5 +1,6 @@
 # 8-bit Microcontroller in 45nm CMOS
-
+	Dec. 24
+	
 VLSI Adventures. 
 
 *8-bit accumulator-based core with 6-bit instruction word and 3-bit opcode*
