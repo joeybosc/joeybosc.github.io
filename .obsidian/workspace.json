@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR_ADC.md",
+                "file": "buck.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SAR_ADC"
+              "title": "buck"
             }
           },
           {
@@ -210,6 +210,7 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "SAR_ADC.md",
     "Hardware.md",
     "buck.md",
     "About.md",
@@ -225,7 +226,6 @@
     "img/PIDarchitecture.png",
     "img/Screenshot 2026-02-23 at 3.56.14 PM.png",
     "Screenshot 2026-02-23 at 3.56.14 PM.png",
-    "SAR_ADC.md",
     "Software.md",
     "img/testimg.md",
     "404.md",
