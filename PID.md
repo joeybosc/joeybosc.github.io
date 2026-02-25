@@ -1,5 +1,4 @@
-	Jan. 26
-//
+*Jan. 2026*
 # Real-Time PID Control Demo
 
 Rapid/Toy Demo of a PID control loop in hard real-time using FreeRTOS (simulated in Unix). 
