@@ -1,3 +1,4 @@
+[Go Back](Hardware.md)
 *Dec. 2025*
 # 8-bit Microcontroller in 45nm CMOS
 	
@@ -13,6 +14,15 @@ Compared to modern microprocessor architectures, this design is extremely simple
 	Shifter 
 	Full Adder (Carry-lookahead)
 	Decoder
+
+I'll finish this write up soon but find the summary of this project below. 
+
+Microcontroller in 65nm CMOS Dec. 2024
+VLSI Design, Columbia University
+- Designed a transistor-level 8-bit microcontroller from scratch in 65nm CMOS, comprising a full adder, bit shifter, core accumulator, multiplexer, and 8-byte SRAM memory block. 
+- Executed detailed layout design, ensuring adherence to parasitics and area constraints.
+
+If you have other questions please contact me: [contact](Contact.md)
 
 
 

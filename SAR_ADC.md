@@ -1,3 +1,4 @@
+[Go Back](Hardware.md)
 *May 2025*
 # Successive Approximation Register Analog-Digital Converter (i.e., SAR ADC)
 

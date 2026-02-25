@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wireless_Receiver.md",
+                "file": "teardowns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireless_Receiver"
+              "title": "teardowns"
             }
           },
           {
@@ -210,18 +210,18 @@
   },
   "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
-    "teardowns.md",
-    "Software.md",
+    "buck.md",
+    "Wireless_Receiver.md",
     "SAR_ADC.md",
-    "PID.md",
     "Micro.md",
-    "index.md",
     "Hardware.md",
+    "index.md",
+    "PID.md",
     "Contact.md",
     "Concepts.md",
-    "buck.md",
+    "teardowns.md",
+    "Software.md",
     "About.md",
-    "Wireless_Receiver.md",
     "img/iphone3gs_board.png",
     "img/Receiver_Architecture.png",
     "img/Buck_Architecture.jpg",
