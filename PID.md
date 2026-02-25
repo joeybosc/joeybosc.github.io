@@ -1,3 +1,4 @@
+[Go Back](Software.md)
 *Jan. 2026*
 # Real-Time PID Control Demo
 
@@ -17,4 +18,4 @@ This last criterion is accomplished with the use of atomic types, which ensure t
 
 The server connects via TCP/IP to an easily configurable Python client, so any POSIX-compliant service can theoretically control the system. 
 
-Have a closer look at this example [here](https://github.com/joeybosc/RT_PID_Cruise_Controller.git).
+Have a closer look at this project [here](https://github.com/joeybosc/RT_PID_Cruise_Controller.git).
