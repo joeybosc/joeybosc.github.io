@@ -9,7 +9,7 @@ I had a great time picking through the main board and identifying each chip in t
 
 ![iPhone 3GS Chipset](img/iphone3gs_board.png "iPhone 3GS Chipset")
 
-The chipset is more or less:
+The chipset is:
 
 *Processor:*
 **APL0298**
