@@ -8,4 +8,3 @@ This project was inspired by recent research into Wireless Sensor Networks (WSNs
 
 The objective of this project is to design a SAR ADC in 180nm CMOS for use in wireless sensors with low power requirements (<10uW), low speed (50kHz), and medium bit resolution (10b). 
 
-
