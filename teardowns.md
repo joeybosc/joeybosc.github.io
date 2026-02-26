@@ -1,4 +1,4 @@
-[Go Back](Concepts.md)
+[Go Back](index.md)
 # Teardowns
 ## An Old Classic: The iPhone 3GS
 *Feb. 2026*
