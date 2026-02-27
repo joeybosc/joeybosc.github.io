@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "SAR_ADC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "SAR_ADC"
             }
           }
         ]
@@ -216,8 +216,9 @@
   },
   "active": "f9ddaca8958954cc",
   "lastOpenFiles": [
-    "Contact.md",
+    "img/strongARM.jpg",
     "index.md",
+    "Contact.md",
     "404.md",
     "About.md",
     "AM.md",
@@ -260,7 +261,6 @@
     "().md",
     "SAR.md",
     "about.md",
-    "URL.md",
-    "Welcome.md"
+    "URL.md"
   ]
 }
