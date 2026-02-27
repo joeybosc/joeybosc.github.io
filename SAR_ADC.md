@@ -13,8 +13,7 @@ This project was inspired by recent research into Wireless Sensor Networks (WSNs
 - **Power:** <10uW
 - **Base CLK:** 550kHz (N + 1 times sample rate, where N is bit count)
 - **Bits per word**: 10b
-		
-	
+
 ![SAR Architecture](SARchitecture.jpg "SARchitecture")
 
 The components of the SAR ADC are:

@@ -13,30 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wireless_Receiver.md",
+                "file": "SAR_ADC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireless_Receiver"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e86ad7eae6ea3a52",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f9ddaca8958954cc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "img/AM_PCB.png"
-              },
-              "icon": "lucide-image",
-              "title": "AM_PCB"
+              "title": "SAR_ADC"
             }
           }
         ]
@@ -212,8 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f9ddaca8958954cc",
+  "active": "42f71c0a64505bd5",
   "lastOpenFiles": [
+    "Wireless_Receiver.md",
+    "img/AM_PCB.png",
     "img/Buck_Architecture.jpg",
     "img/PID_Architecture.png",
     "img/Receiver_Architecture.png",
@@ -234,10 +218,8 @@
     "Micro.md",
     "Hardware.md",
     "buck.md",
-    "Wireless_Receiver.md",
     "teardowns.md",
     "Music.md",
-    "img/AM_PCB.png",
     "img/iphone3gs_board.png",
     "img/PIDarchitecture.png",
     "img/Screenshot 2026-02-23 at 3.56.14 PM.png",
