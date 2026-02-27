@@ -10,7 +10,7 @@ I'm also interested in guitar, songwriting, and painting.
 
 + *General*
 	+ [About](About.md)
-	+ [Contact](Contact.md)
+	+ [Contact](https://forms.gle/df3vvS9e7EkfFt1o9)
 + *Projects*
 	+ Hardware
 		+  [60GHz Wireless Receiver](Wireless_Receiver.md)
