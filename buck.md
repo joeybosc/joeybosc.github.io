@@ -1,4 +1,5 @@
 [Go Back](Hardware.md)
+
 *Dec. 2025*
 # Integrated Buck Converter Design
 

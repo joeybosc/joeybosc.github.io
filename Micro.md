@@ -1,4 +1,5 @@
 [Go Back](Hardware.md)
+
 *Dec. 2025*
 # 8-bit Microcontroller in 45nm CMOS
 	
