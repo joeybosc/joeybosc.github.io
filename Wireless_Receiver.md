@@ -1,4 +1,4 @@
-[Go Back](Hardware.md)
+[Go Back](index.md)
 
 *Dec. 2025*
 # 60GHz Wireless Receiver Design
