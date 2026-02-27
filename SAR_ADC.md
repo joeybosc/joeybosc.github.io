@@ -26,7 +26,7 @@ For the comparator, I designed a strongARM dynamic latch with the following topo
 
 ![strongARM](img/strongARM.jpg "StrongARM Latch")
 
-This is a general topology for strongARM, with a few key modifications for performance, namely the addition of 
+This is a general topology for strongARM, with a few key modifications for performance.
 The latch operates in two phases:
 - **Reset phase:** CLK=LOW, output nodes are pulled high by M6 and M7
 - **Evaluation phase:** CLK=HIGH, one output is pulled low. Which output this is depends on the input state. 
