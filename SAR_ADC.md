@@ -15,13 +15,12 @@ This project was inspired by recent research into Wireless Sensor Networks (WSNs
 	**Bits per word**: 10b
 		
 	
-	
+![SAR Architecture](SARchitecture.jpg "SARchitecture")
 
 The components of the SAR ADC are:
 	**DAC** - a binary-weighted capacitor array comprising two identical branches of 10 capacitors each, and a dummy capacitor tied to the common-mode voltage to maintain symmetry. 
 	**Comparator** - StrongARM dynamic regenerative latch, chosen because it draws no static power (see below).
-	SR Latch
-	SAR Logic Block
+	**SAR Logic Block**
 
 For the comparator, I designed a strongARM dynamic latch with the following topology:
 
