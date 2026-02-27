@@ -31,14 +31,12 @@
             "id": "f9ddaca8958954cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "SAR_ADC.md",
-                "mode": "source",
-                "source": false
+                "file": "img/AM_PCB.png"
               },
-              "icon": "lucide-file",
-              "title": "SAR_ADC"
+              "icon": "lucide-image",
+              "title": "AM_PCB"
             }
           }
         ]
@@ -216,8 +214,13 @@
   },
   "active": "f9ddaca8958954cc",
   "lastOpenFiles": [
+    "img/Buck_Architecture.jpg",
+    "img/PID_Architecture.png",
+    "img/Receiver_Architecture.png",
+    "img/SAR_block.jpg",
     "img/SARchitecture.jpg",
     "img/strongARM.jpg",
+    "SAR_ADC.md",
     "index.md",
     "Contact.md",
     "404.md",
@@ -225,7 +228,6 @@
     "AM.md",
     "Dental.md",
     "FIR.md",
-    "SAR_ADC.md",
     "Concepts.md",
     "PID.md",
     "Software.md",
@@ -237,12 +239,8 @@
     "Music.md",
     "img/AM_PCB.png",
     "img/iphone3gs_board.png",
-    "img/Receiver_Architecture.png",
-    "img/Buck_Architecture.jpg",
-    "img/PID_Architecture.png",
     "img/PIDarchitecture.png",
     "img/Screenshot 2026-02-23 at 3.56.14 PM.png",
-    "Screenshot 2026-02-23 at 3.56.14 PM.png",
     "img/testimg.md",
     "img",
     "_config.yml",
@@ -252,7 +250,6 @@
     "CNAME",
     "Untitled.base",
     "README.md",
-    "img/art/cups2.jpg",
     "textContent/buckContent.txt",
     "textContent/transmitterContent",
     "textContent/receiverContent.txt",

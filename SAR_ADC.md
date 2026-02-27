@@ -21,12 +21,22 @@ The components of the SAR ADC are:
 - **DAC** - a binary-weighted capacitor array comprising two identical branches of 10 capacitors each, and a dummy capacitor tied to the common-mode voltage to maintain symmetry. 
 - **Comparator** - StrongARM dynamic regenerative latch, chosen because it draws no static power (see below).
 - **SAR Logic Block**
+### Fast Dynamic Latching Comparator
 
 For the comparator, I designed a strongARM dynamic latch with the following topology:
 
 ![strongARM](img/strongARM.jpg "StrongARM Latch")
 
-This is a general topology for strongARM, with a few key modifications for performance.
+This is a basic topology for strongARM, with a few key modifications for performance.
 The latch operates in two phases:
 - **Reset phase:** CLK=LOW, output nodes are pulled high by M6 and M7
 - **Evaluation phase:** CLK=HIGH, one output is pulled low. Which output this is depends on the input state. 
+
+
+### SAR Logic Decoder
+
+The SAR logic decoder is implemented as two rows of 11 resettable D flip-flops. To store a bit decision, the SAR block need to propagate the comparator decision thourhg a maximum of 11 DFFs within a single sample step, so the SAR logic clock is generated at 11 times the sample rate, or 550kHz. 
+
+The top delay line captures the comparator decision and passes logical HIGH readings to the bottom delay line. 
+
+![SAR logic](img/SAR_block.jpg "SAR logic block")
