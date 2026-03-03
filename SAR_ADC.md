@@ -45,3 +45,4 @@ The SAR logic decoder is implemented as two rows of 11 resettable D flip-flops. 
 The top delay line captures the comparator decision and passes logical HIGH readings to the bottom delay line. 
 
 ![SAR logic](img/SAR_block.jpg "SAR logic block")
+
