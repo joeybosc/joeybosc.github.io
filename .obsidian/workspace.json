@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR_ADC.md",
+                "file": "AM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SAR_ADC"
+              "title": "AM"
             }
           }
         ]
@@ -194,17 +194,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "55f473a792b26012",
+  "active": "9af2f020812dcf29",
   "lastOpenFiles": [
-    "PID.md",
-    "Wireless_Receiver.md",
-    "teardowns.md",
-    "AM.md",
-    "buck.md",
-    "Contact.md",
-    "FIR.md",
+    "About.md",
+    "404.md",
     "Micro.md",
     "SAR_ADC.md",
+    "Wireless_Receiver.md",
+    "teardowns.md",
+    "Contact.md",
+    "PID.md",
+    "Dental.md",
+    "FIR.md",
+    "index.md",
+    "buck.md",
+    "AM.md",
+    "img/SARchitecture.jpg",
     "Hardware.md",
     "img/comp_transient.png",
     "img/AM_PCB.png",
@@ -212,12 +217,7 @@
     "img/PID_Architecture.png",
     "img/Receiver_Architecture.png",
     "img/SAR_block.jpg",
-    "img/SARchitecture.jpg",
     "img/strongARM.jpg",
-    "index.md",
-    "404.md",
-    "About.md",
-    "Dental.md",
     "Concepts.md",
     "Software.md",
     "Music.md",
